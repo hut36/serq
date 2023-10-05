@@ -1,0 +1,37 @@
+{
+	"name": "serq",
+	"version": "0.1.0",
+	"description": "Serial queue.",
+	"keywords": [
+		"queue",
+		"serial"
+	],
+	"author": "Tao Hu <cnhutao@hotmail.com>",
+	"main": "src/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/hut36/serq.git"
+	},
+	"devDependencies": {
+		"chai": "^4.3.10",
+		"karma": "^6.4.2",
+		"karma-chrome-launcher": "^3.2.0",
+		"karma-firefox-launcher": "~2.1.2",
+		"karma-mocha": "^2.0.1",
+		"karma-mocha-reporter": "^2.2.5",
+		"karma-safari-launcher": "~1.0.0",
+		"karma-webpack": "^5.0.0",
+		"mocha": "^10.2.0",
+		"mochapack": "^2.1.4",
+		"webpack": "^5.88.2",
+		"webpack-cli": "^5.1.4"
+	},
+	"dependencies": {
+		"promise-deferred": "^2.0.4"
+	},
+	"scripts": {
+		"build": "NODE_ENV=production webpack --progress",
+		"test": "karma start karma.conf.js"
+	},
+	"license": "MIT"
+}
