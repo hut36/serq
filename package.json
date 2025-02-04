@@ -12,6 +12,7 @@
 		"type": "git",
 		"url": "git://github.com/hut36/serq.git"
 	},
+	"files": [],
 	"devDependencies": {
 		"chai": "^4.3.10",
 		"karma": "^6.4.2",
