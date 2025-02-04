@@ -1,4 +1,4 @@
-import { assert } from 'chai';
+import { assert } from '@esm-bundle/chai';
 import Serq from '../src/index.js';
 
 describe('Serq', () => {

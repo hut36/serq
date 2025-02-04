@@ -16,22 +16,15 @@
 		"src/deferred.js"
 	],
 	"devDependencies": {
-		"chai": "^4.3.10",
-		"karma": "^6.4.2",
-		"karma-chrome-launcher": "^3.2.0",
-		"karma-firefox-launcher": "~2.1.2",
-		"karma-mocha": "^2.0.1",
-		"karma-mocha-reporter": "^2.2.5",
-		"karma-safari-launcher": "~1.0.0",
-		"karma-webpack": "^5.0.0",
-		"mocha": "^10.2.0",
-		"mochapack": "^2.1.4",
+		"@esm-bundle/chai": "4.3.4-fix.0",
+		"@web/test-runner": "^0.19.0",
+		"@web/test-runner-puppeteer": "^0.17.0",
 		"webpack": "^5.88.2",
 		"webpack-cli": "^5.1.4"
 	},
 	"scripts": {
 		"build": "NODE_ENV=production webpack --progress",
-		"test": "karma start karma.conf.js"
+		"test": "wtr tests/**/*.js --node-resolve"
 	},
 	"license": "MIT"
 }
