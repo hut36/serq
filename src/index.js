@@ -21,7 +21,7 @@
 
 'use strict';
 
-import Deferred from 'promise-deferred';
+import { Deferred } from './deferred.js';
 
 let DEFAULT_TIMEOUT = 3000;
 

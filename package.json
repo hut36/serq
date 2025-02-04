@@ -12,7 +12,9 @@
 		"type": "git",
 		"url": "git://github.com/hut36/serq.git"
 	},
-	"files": [],
+	"files": [
+		"src/deferred.js"
+	],
 	"devDependencies": {
 		"chai": "^4.3.10",
 		"karma": "^6.4.2",
@@ -26,9 +28,6 @@
 		"mochapack": "^2.1.4",
 		"webpack": "^5.88.2",
 		"webpack-cli": "^5.1.4"
-	},
-	"dependencies": {
-		"promise-deferred": "^2.0.4"
 	},
 	"scripts": {
 		"build": "NODE_ENV=production webpack --progress",

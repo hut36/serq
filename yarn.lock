@@ -373,11 +373,6 @@ array-union@^2.1.0:
   resolved "https://registry.npmmirror.com/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
   integrity sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==
 
-asap@~2.0.6:
-  version "2.0.6"
-  resolved "https://registry.npmmirror.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
-  integrity sha512-BSHWgDSAiKs50o2Re8ppvp3seVHXSRM44cdSsT9FfNEUUZLOGWVCsiWaRPWM1Znn+mqZ1OfVZ3z3DWEzSp7hRA==
-
 assertion-error@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmmirror.com/assertion-error/-/assertion-error-1.1.0.tgz#e60b6b0e8f301bd97e5375215bda406c85118c0b"
@@ -1758,20 +1753,6 @@ progress@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npmmirror.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
-
-promise-deferred@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.npmmirror.com/promise-deferred/-/promise-deferred-2.0.4.tgz#cb9307c07c34dae8ff46aac522b9f2b32cfb1695"
-  integrity sha512-clITUrRNue0lRawJPyHwCtgcPryJBtGXN6map89kM268+bKgSfh/1ZXOD51+VfDsihzF66m2PBmNOIHETfko4Q==
-  dependencies:
-    promise "^8.3.0"
-
-promise@^8.3.0:
-  version "8.3.0"
-  resolved "https://registry.npmmirror.com/promise/-/promise-8.3.0.tgz#8cb333d1edeb61ef23869fbb8a4ea0279ab60e0a"
-  integrity sha512-rZPNPKTOYVNEEKFaq1HqTgOwZD+4/YHS5ukLzQCypkj+OkYx7iv0mA91lJlpPPZ8vMau3IIGj5Qlwrx+8iiSmg==
-  dependencies:
-    asap "~2.0.6"
 
 prr@~1.0.1:
   version "1.0.1"
