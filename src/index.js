@@ -94,10 +94,12 @@ class Serq {
 		let self = this;
 		task.id = ++this.id
 
-		this.timer = setTimeout(function() {
-			self.pp = Promise.resolve().then(() => { self._next(task.id); })
-			typeof (task.ontimeout) === 'function' && task.ontimeout()
-		}, this.timeout);
+		if (this.timeout >= 0) {
+			this.timer = setTimeout(function() {
+				self.pp = Promise.resolve().then(() => { self._next(task.id); })
+				typeof (task.ontimeout) === 'function' && task.ontimeout()
+			}, this.timeout);
+		}
 
 		this.pp = this.pp
 			.then(task.fn)
